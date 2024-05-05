@@ -22,6 +22,8 @@ Descriptor will include a number of features, including:
 * A profiler * 
 * A test suite * 
 
+anything marked with * at the end is in development at the moment and does not reflect the current implementation of the Shell
+
 ## Development
 
 Descriptor is currently in the early stages of development. The project is open source and contributions are welcome.
