@@ -5,7 +5,7 @@
 
 This is the home for descriptor. a operating system developed in CSharp with other programming laguages being added soon when the time comes.
 
-Descriptor is the successor to the discontinued project, "OS-1". Descriptor will be a 64-bit operating system with a focus on security, stability, and performance. It will be designed to be modular and extensible, allowing users to easily add new features and functionality.
+Descriptor is the successor to the discontinued project, "PythonicOS". Descriptor will be a 32-bit operating system with a focus on security, stability, and performance. It will be designed to be modular and extensible, allowing users to easily add new features and functionality.
 
 ## Features
 
