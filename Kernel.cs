@@ -10,12 +10,21 @@ namespace Descriptor
 
         protected override void BeforeRun()
         {
-            Welcome();
+            Welcome.Clear(2);
+            Welcome.Kwelcome();
         }
 
         protected override void Run()
         {
-         
+            try{
+                Welcome.Konsole();
+            }
+            catch(Exception e){
+                mDebugger.Send(e.Message);
+                Console.WriteLine(e.Message);
+            }
         }
+
+        
     }
 }
