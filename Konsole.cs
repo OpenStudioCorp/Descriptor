@@ -133,4 +133,5 @@ namespace Descriptor
             PrintS("########################", ConsoleColor.Green);
         }
     }
+    public class File
 }
