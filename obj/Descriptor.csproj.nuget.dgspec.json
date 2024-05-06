@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Descriptor.csproj": {}
+    "C:\\Users\\damia\\source\\repos\\Descriptor\\Descriptor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Descriptor.csproj": {
+    "C:\\Users\\damia\\source\\repos\\Descriptor\\Descriptor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Descriptor.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\source\\repos\\Descriptor\\Descriptor.csproj",
         "projectName": "Descriptor",
-        "projectPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Descriptor.csproj",
-        "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\obj\\",
+        "projectPath": "C:\\Users\\damia\\source\\repos\\Descriptor\\Descriptor.csproj",
+        "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damia\\source\\repos\\Descriptor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\GAMER\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "C:\\Users\\damia\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
