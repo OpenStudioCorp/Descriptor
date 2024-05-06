@@ -11,6 +11,8 @@ using System.Drawing;
 using System.Collections;
 using Cosmos.System.FileSystem.FAT;
 using Cosmos.HAL.BlockDevice;
+using Cosmos.System.FileSystem;
+using System.IO;
 
 namespace Descriptor
 {
@@ -85,9 +87,72 @@ namespace Descriptor
                     PrintS("echo: prints out what you put in the args.");
 
                     break;
-                case "echo":
-                    Print(string.Join(" ", arguments) + "\n");
+                case "ls":
+                    var files_list = Directory.GetFiles(@"0:\\");
+                    var directory_list = Directory.GetDirectories(@"0:\\");
 
+                    foreach (var file in files_list)
+                    {
+                        Print(file + "  ", ConsoleColor.Green);
+                    }
+                    foreach (var directory in directory_list)
+                    {
+                        Console.WriteLine(directory + "  ", ConsoleColor.DarkBlue);
+                    }
+                    Print("\n");
+                    
+                    break;
+                case "cat":
+                    if (arguments.Length == 0) return;
+                    string catFileName = "0:\\" + arguments[0];
+                    try
+                    {
+                        using (FileStream fs = File.OpenRead(catFileName))
+                        using (var sr = new StreamReader(fs))
+                        {
+                            string content = sr.ReadToEnd();
+                            Console.WriteLine(content);
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Error reading file: " + e.Message);
+                    }
+                    break;
+                case "echo":
+                    string output = string.Join(" ", arguments);
+                    if (output.Contains(">"))
+                    {
+                        string[] parts = output.Split(new[] { '>' }, 2, StringSplitOptions.RemoveEmptyEntries);
+                        if (parts.Length == 2)
+                        {
+                            string filename = "0:\\" + parts[1].Trim();
+                            string textToAppend = parts[0].Trim();
+
+                            try
+                            {
+                                using (StreamWriter sw = File.AppendText(filename))
+                                {
+                                    Print("Writing to file: " + filename + "\n");
+                                    Print("Text to append: " + textToAppend + "\n");
+                                    sw.Write(textToAppend);
+                                }
+                                Print("Text appended to " + filename + "\n");
+                            }
+                            catch (Exception e)
+                            {
+                                Print("Error appending text to file: " + e.Message + "\n", ConsoleColor.Red);
+                            }
+                        }
+                        else
+                        {
+                            Print("Invalid syntax. Usage: echo [text] > [filename]\n", ConsoleColor.Red);
+                        }
+                    }
+                    else
+                    {
+                        Print(string.Join(" ", arguments) + "\n");
+                    }
                     break;
                 case "exit":
                     Print("Exting\n", ConsoleColor.Red);
@@ -97,12 +162,12 @@ namespace Descriptor
                     break;
                 case "disk":
                     long free = Kernel.fs.GetAvailableFreeSpace("0:\\");
-                    if (free > 1000000)
-                        Print("Free Space: " + (free / (1024 * 1024 * 1024)).ToString("0.##") + "GB\n");
-                    else if (free > 1000)
-                        Print("Free Space: " + (free / (1024 * 1024)).ToString("0.##") + "MB\n");
+                    if (((double)free / (1024 * 1024 * 1024)) > 0.9)
+                        Print("Free Space: " + ((double)free / (1024 * 1024 * 1024)).ToString("0.##") + "GB\n");
+                    else if (((double)free / (1024 * 1024)) > 1)
+                        Print("Free Space: " + ((double)free / (1024 * 1024)).ToString("0.##") + "MB\n");
                     else
-                        Print("Free Space: " + (free / 1024).ToString("0") + "KB\n");
+                        Print("Free Space: " + ((double)free / 1024).ToString("0") + "KB\n");
 
                     break;
                 case "shutdown":
@@ -113,8 +178,30 @@ namespace Descriptor
                     Sys.Power.Reboot(); // restart too
 
                     break;
-                case "edit":
-                    eidtor.editor();
+
+                case "format":
+                    if (!arguments.Any()) {
+                        Print("format [disk index] [format type]\n", ConsoleColor.Red);
+                        return;
+                    }
+                    string diskindex = arguments[0];
+                    if (arguments.Length < 2 || arguments[1] == null || string.IsNullOrWhiteSpace(arguments[1]))
+                    {
+                        Print($"format {diskindex} [format type]\n", ConsoleColor.Red);
+                        return;
+                    }
+                    string format = arguments[1].ToUpper();
+                    var index = int.Parse(diskindex);
+                    try
+                    {
+                        Kernel.fs.Disks[index].FormatPartition(0, format);
+                        Console.WriteLine("Disk formatted successfully.");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Error formatting disk: " + ex.Message);
+                    }
+
                     break;
                 default:
                     Print("invalid input: " + input + "\n", ConsoleColor.Red);
