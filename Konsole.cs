@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using Sys = Cosmos.System;
 using System.Drawing;
 using System.Collections;
+using Cosmos.System.FileSystem.FAT;
+using Cosmos.HAL.BlockDevice;
+
 namespace Descriptor
 {
     public class Konsol
@@ -93,8 +96,13 @@ namespace Descriptor
 
                     break;
                 case "disk":
-                    long free = Kernel.fs.GetAvailableFreeSpace(Kernel.Path);
-                    Print("Free Space: " + free / 1024 + "KB\n");
+                    long free = Kernel.fs.GetAvailableFreeSpace("0:\\");
+                    if (free > 1000000)
+                        Print("Free Space: " + (free / (1024 * 1024 * 1024)).ToString("0.##") + "GB\n");
+                    else if (free > 1000)
+                        Print("Free Space: " + (free / (1024 * 1024)).ToString("0.##") + "MB\n");
+                    else
+                        Print("Free Space: " + (free / 1024).ToString("0") + "KB\n");
 
                     break;
                 case "shutdown":

@@ -15,7 +15,6 @@ namespace Descriptor
             Console.OutputEncoding = Cosmos.System.ExtendedASCII.CosmosEncodingProvider.Instance.GetEncoding(437);
             fs = new Cosmos.System.FileSystem.CosmosVFS();
             Cosmos.System.FileSystem.VFS.VFSManager.RegisterVFS(fs);
-            Console.ForegroundColor = ConsoleColor.Cyan;
             Konsol.Kwelcome();
         }
 
