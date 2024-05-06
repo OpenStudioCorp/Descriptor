@@ -133,5 +133,11 @@ namespace Descriptor
             PrintS("########################", ConsoleColor.Green);
         }
     }
-    public class File
+    public class eidtor
+    {
+        public static void editor()
+        {
+            siv.TextEditor.TextEditor.StartTextEditor();
+        }
+    }
 }
