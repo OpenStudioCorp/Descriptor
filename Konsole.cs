@@ -178,6 +178,7 @@ namespace Descriptor
                     Sys.Power.Reboot(); // restart too
 
                     break;
+
                 case "format":
                     if (!arguments.Any()) {
                         Print("format [disk index] [format type]\n", ConsoleColor.Red);
@@ -200,6 +201,7 @@ namespace Descriptor
                     {
                         Console.WriteLine("Error formatting disk: " + ex.Message);
                     }
+
                     break;
                 default:
                     Print("invalid input: " + input + "\n", ConsoleColor.Red);
@@ -219,6 +221,13 @@ namespace Descriptor
             PrintS("#####--Created by--#####", ConsoleColor.Green);
             PrintS("#####--OpenStudio--#####", ConsoleColor.Green);
             PrintS("########################", ConsoleColor.Green);
+        }
+    }
+    public class eidtor
+    {
+        public static void editor()
+        {
+           
         }
     }
 }
