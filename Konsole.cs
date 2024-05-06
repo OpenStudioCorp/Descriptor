@@ -113,6 +113,9 @@ namespace Descriptor
                     Sys.Power.Reboot(); // restart too
 
                     break;
+                case "edit":
+                    eidtor.editor();
+                    break;
                 default:
                     Print("invalid input: " + input + "\n", ConsoleColor.Red);
 
@@ -137,7 +140,7 @@ namespace Descriptor
     {
         public static void editor()
         {
-            siv.TextEditor.TextEditor.StartTextEditor();
+           
         }
     }
 }
