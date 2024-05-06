@@ -13,7 +13,7 @@ namespace Descriptor
         {
             Console.SetWindowSize(90, 30);
             Console.OutputEncoding = Cosmos.System.ExtendedASCII.CosmosEncodingProvider.Instance.GetEncoding(437);
-            fs = new Cosmos.System.FileSystem.CosmosVFS();
+            CosmosVFS fs = new Cosmos.System.FileSystem.CosmosVFS();
             Cosmos.System.FileSystem.VFS.VFSManager.RegisterVFS(fs);
             Konsol.Kwelcome();
         }
