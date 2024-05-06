@@ -7,7 +7,7 @@ namespace Descriptor
     public class Kernel : Sys.Kernel
     {
         public string Version = "1.0.0";
-        public static string Path = @"0\";
+        public static string Path = @"0:\\";
         public static CosmosVFS fs;
         protected override void BeforeRun()
         {
