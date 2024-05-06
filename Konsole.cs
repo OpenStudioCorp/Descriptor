@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sys = Cosmos.System;
+using System.Drawing;
+using System.Collections;
 namespace Descriptor
 {
     public class Konsol
@@ -23,6 +25,26 @@ namespace Descriptor
         {
             Console.Write(CenterText(text));
         }
+
+        public static void Print(string text)
+        {
+            Console.Write(text);
+        }
+
+        public static void Print(string text, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.Write(text);
+            Console.ResetColor();
+        }
+
+        public static void PrintS(string text, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.Write(CenterText(text));
+            Console.ResetColor();
+        }
+
         public static string CenterText(string text)
         {
             int consolewidth = 90;
@@ -30,53 +52,77 @@ namespace Descriptor
             string centeredText = text.PadLeft(padding + text.Length).PadRight(consolewidth);
             return centeredText;
         }
+
         public static void Konsole(string caret, string path)
         {
             Console.Write(path + caret);
-            var input = Console.ReadLine();
-            switch (input)
+
+            string input = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                // this stops the crash whenever you put nothing in the command line
+                return;
+            }
+
+            string[] inputParts = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+            string command = inputParts[0];
+
+            string[] arguments = new string[inputParts.Length - 1];
+            Array.Copy(inputParts, 1, arguments, 0, inputParts.Length - 1);
+             
+            switch (command)
             {
                 case "help":
                     PrintS("help: print's the help text your reading");
                     PrintS("exit: exit the program");
-                    PrintS("Shutdown: shutdown the computer");
-                    PrintS("Restart: restart the computer");
+                    PrintS("shutdown: shutdown the computer");
+                    PrintS("restart: restart the computer");
+                    PrintS("echo: prints out what you put in the args.");
 
                     break;
-                
+                case "echo":
+                    Print(string.Join(" ", arguments) + "\n");
+
+                    break;
                 case "exit":
-                    PrintS("Exting");
-                    PrintS("Thank you for using Descriptor");
-                    PrintS("by OpenStudio");
+                    Print("Exting\n", ConsoleColor.Red);
+                    Print("Thank you for using Descriptor\n");
+                    Print("by: OpenStudio\n", ConsoleColor.Yellow);
                     
                     break;
                 case "disk":
                     long free = Kernel.fs.GetAvailableFreeSpace(Kernel.Path);
-                    Console.WriteLine("Free Space: " + free/1024 +"KB");
+                    Print("Free Space: " + free/1024 +"KB\n");
+
                     break;
                 case "shutdown":
                     Sys.Power.Shutdown(); // shutdown is supported
+
                     break;
                 case "restart":
                     Sys.Power.Reboot(); // restart too
+
                     break;
                 default:
-                    Console.WriteLine("invalid input: " + input);
+                    Print("invalid input: " + input + "\n", ConsoleColor.Red);
+
                     break;
             }
             
         }
         public static void Kwelcome() 
         {
-            PrintS("########################");
-            PrintS("####---Descriptor---####");
-            PrintS("########################");
-            PrintS("########--V1.0--########");
-            PrintS("########################");
-            PrintS("########################");
-            PrintS("#####--Created by--#####");
-            PrintS("#####--OpenStudio--#####");
-            PrintS("########################");
+            PrintS("########################", ConsoleColor.Green);
+            PrintS("####---Descriptor---####", ConsoleColor.Green);
+            PrintS("########################", ConsoleColor.Green);
+            PrintS("########--V1.0--########", ConsoleColor.Green);
+            PrintS("########################", ConsoleColor.Green);
+            PrintS("########################", ConsoleColor.Green);
+            PrintS("#####--Created by--#####", ConsoleColor.Green);
+            PrintS("#####--OpenStudio--#####", ConsoleColor.Green);
+            PrintS("########################", ConsoleColor.Green);
         }
     }
 }
