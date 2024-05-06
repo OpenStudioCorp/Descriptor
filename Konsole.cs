@@ -129,6 +129,9 @@ namespace Descriptor
                             string filename = "0:\\" + parts[1].Trim();
                             string textToAppend = parts[0].Trim();
 
+                            if (!File.Exists(filename))
+                                File.Create(filename);
+
                             try
                             {
                                 using (StreamWriter sw = File.AppendText(filename))
