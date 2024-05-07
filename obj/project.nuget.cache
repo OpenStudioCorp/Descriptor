@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "TtSJibEwX74fZGPkhOVx9YLW7MfRgHuZIXqETzFhMt41fxb2vZ6GXzGl2uEFQLSSuywFG/FdvRpaOvGl8Z480Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\damia\\Source\\Repos\\OpenStudioCorp\\Descriptor\\Descriptor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\damia\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20240506013540\\cosmos.build.0.1.0-localbuild20240506013540.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20240506013550\\cosmos.common.0.1.0-localbuild20240506013550.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\cosmos.core\\0.1.0-localbuild20240506013550\\cosmos.core.0.1.0-localbuild20240506013550.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\cosmos.debug.kernel\\0.1.0-localbuild20240506013550\\cosmos.debug.kernel.0.1.0-localbuild20240506013550.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20240506013550\\cosmos.hal2.0.1.0-localbuild20240506013550.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\cosmos.plugs\\0.1.0-localbuild20240506013550\\cosmos.plugs.0.1.0-localbuild20240506013550.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20240506013550\\cosmos.system2.0.1.0-localbuild20240506013550.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20240506013550\\il2cpu.api.0.1.0-localbuild20240506013550.nupkg.sha512"
+  ],
+  "logs": []
+}
