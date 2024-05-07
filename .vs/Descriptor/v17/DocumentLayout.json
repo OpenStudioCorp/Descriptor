@@ -1,14 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\",
+  "WorkspaceRootPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B9BD079-7079-4F3B-A688-B9273A04122D}|Descriptor.csproj|c:\\users\\damia\\source\\repos\\openstudiocorp\\descriptor\\kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B9BD079-7079-4F3B-A688-B9273A04122D}|Descriptor.csproj|c:\\users\\gamer\\source\\repos\\descriptor\\konsol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9BD079-7079-4F3B-A688-B9273A04122D}|Descriptor.csproj|solutionrelative:konsol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9BD079-7079-4F3B-A688-B9273A04122D}|Descriptor.csproj|c:\\users\\gamer\\source\\repos\\descriptor\\kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B9BD079-7079-4F3B-A688-B9273A04122D}|Descriptor.csproj|solutionrelative:kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B9BD079-7079-4F3B-A688-B9273A04122D}|Descriptor.csproj|c:\\users\\damia\\source\\repos\\openstudiocorp\\descriptor\\konsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B9BD079-7079-4F3B-A688-B9273A04122D}|Descriptor.csproj|solutionrelative:konsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\Konsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +25,45 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{f019fb29-c2c2-4d27-9abf-739533c939be}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Konsol.cs",
+              "DocumentMoniker": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Konsol.cs",
+              "RelativeDocumentMoniker": "Konsol.cs",
+              "ToolTip": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Konsol.cs",
+              "RelativeToolTip": "Konsol.cs",
+              "ViewState": "AQIAAD0BAAAAAAAAAAAqwFMBAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T03:58:25.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Kernel.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\Kernel.cs",
+              "DocumentMoniker": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Kernel.cs",
               "RelativeDocumentMoniker": "Kernel.cs",
-              "ToolTip": "C:\\Users\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\Kernel.cs",
+              "ToolTip": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\Kernel.cs",
               "RelativeToolTip": "Kernel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBwAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T12:02:03.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Konsole.cs",
               "DocumentMoniker": "C:\\Users\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\Konsole.cs",
-              "RelativeDocumentMoniker": "Konsole.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\Konsole.cs",
               "ToolTip": "C:\\Users\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\Konsole.cs",
-              "RelativeToolTip": "Konsole.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\damia\\source\\repos\\OpenStudioCorp\\Descriptor\\Konsole.cs",
               "ViewState": "AQIAAGYAAAAAAAAAAAAAwHEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T12:00:19.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T12:00:19.654Z"
             }
           ]
         }
