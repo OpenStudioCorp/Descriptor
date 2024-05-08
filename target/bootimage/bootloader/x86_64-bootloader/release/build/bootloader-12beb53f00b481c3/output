@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\Cargo.toml
+cargo:rustc-link-search=native=C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\target\bootimage\bootloader\x86_64-bootloader\release\build\bootloader-12beb53f00b481c3\out
+cargo:rustc-link-lib=static=kernel_bin-descriptor
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=\\?\C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\target\x86_64-descriptor\debug\descriptor
+cargo:rerun-if-changed=build.rs

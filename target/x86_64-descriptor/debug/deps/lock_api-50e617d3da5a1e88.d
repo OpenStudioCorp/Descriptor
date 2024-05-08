@@ -1,0 +1,10 @@
+C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\target\x86_64-descriptor\debug\deps\liblock_api-50e617d3da5a1e88.rmeta: C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\lib.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\mutex.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\remutex.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\rwlock.rs
+
+C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\target\x86_64-descriptor\debug\deps\liblock_api-50e617d3da5a1e88.rlib: C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\lib.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\mutex.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\remutex.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\rwlock.rs
+
+C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\target\x86_64-descriptor\debug\deps\lock_api-50e617d3da5a1e88.d: C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\lib.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\mutex.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\remutex.rs C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\rwlock.rs
+
+C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\lib.rs:
+C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\mutex.rs:
+C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\remutex.rs:
+C:\Users\WattleFoxxo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lock_api-0.4.12\src\rwlock.rs:

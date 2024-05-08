@@ -3,7 +3,7 @@
 ---
 # Welcome to Descriptor!
 
-This is the home for descriptor. a operating system developed in CSharp with other programming laguages being added soon when the time comes.
+This is the home for descriptor. a operating system developed in Rust with support for loading WASM compiled software
 
 Descriptor is the successor to the discontinued project, "PythonicOS". Descriptor will be a 32-bit operating system with a focus on security, stability, and performance. It will be designed to be modular and extensible, allowing users to easily add new features and functionality.
 
@@ -61,7 +61,11 @@ Descriptor is licensed under the MIT License.
 
 ## Disclaimer
 
-Descriptor is a research project and is not intended for production use.
+Descriptor is currently in development and is nowhere near finished to call stable. 
 
 you can use it but right now, since it's in very early stages. it's best to wait till a stable release is made.
 
+## Setup
+rustup target add x86_64-unknown-none
+rustup component add rust-src
+rustup component add llvm-tools-preview

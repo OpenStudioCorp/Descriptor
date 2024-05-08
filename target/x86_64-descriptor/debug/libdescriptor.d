@@ -1,0 +1,1 @@
+C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\target\x86_64-descriptor\debug\libdescriptor.rlib: C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\src\interrupts.rs C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\src\lib.rs C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\src\serial.rs C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\src\vga.rs
