@@ -5,7 +5,8 @@ using System.IO;
 using Mosa.DeviceSystem.HardwareAbstraction;
 using Mosa.DeviceSystem.Services;
 using Mosa.Kernel.BareMetal;
-
+using WebAssembly.Instructions;
+using WebAssembly.Runtime;
 using Mosa.DeviceSystem.Disks;
 using Mosa.FileSystem.FAT;
 
@@ -32,10 +33,12 @@ public static class Program {
 
 		DeviceService = Kernel.ServiceManager.GetFirstService<DeviceService>();
 		PCService = Kernel.ServiceManager.GetFirstService<PCService>();
-		Random = new Random();
+		
 
 		Disks.ShowDisks();
 		FileSystem.ShowPartitions();
+		Konsole.Konsole.Run();
+        using var stream = File.OpenRead("HelloWorld.wasm");
 
 		Logging.Info("Kernel", "Loading root file system.");
 		var partitions = DeviceService.GetDevices<IPartitionDevice>();
@@ -71,6 +74,6 @@ public static class Program {
 		// Logging.Warn("Kernel", "This is a warn log.");
 		// Logging.Error("Kernel", "This is a error log.");		
 
-		for (;;) {}
+        for (;;) {}
 	}
 }
