@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "BbQL044zixpQyGAvjrvXav/Dfe4qYgvSOMi9m9zqC6rmhT5fJitGUCunb1ugA023BMtyCLqY3bRYTQtiv0b8Ew==",
+  "dgSpecHash": "rK31UgBAes8cmm0TEfa/uqDBvBkXBDxZzq9GjYbXCp9NajVgEhzDQCEm1F/JaGyrio3dhKL+nZ8i2KWqorjfcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
+  "projectFilePath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.devicesystem\\2.6.0.1452\\mosa.devicesystem.2.6.0.1452.nupkg.sha512",
-    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.platform\\2.6.0.1452\\mosa.platform.2.6.0.1452.nupkg.sha512",
-    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.platform.x86\\2.6.0.1452\\mosa.platform.x86.2.6.0.1452.nupkg.sha512",
-    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.tools.package.qemu\\2.6.0.1452\\mosa.tools.package.qemu.2.6.0.1452.nupkg.sha512",
-    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\webassembly\\1.2.1\\webassembly.1.2.1.nupkg.sha512"
+    "C:\\Users\\GAMER\\.nuget\\packages\\mosa.devicesystem\\2.6.0.1457\\mosa.devicesystem.2.6.0.1457.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\mosa.platform\\2.6.0.1457\\mosa.platform.2.6.0.1457.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\mosa.platform.x86\\2.6.0.1457\\mosa.platform.x86.2.6.0.1457.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\mosa.tools.package.qemu\\2.6.0.1457\\mosa.tools.package.qemu.2.6.0.1457.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\webassembly\\1.2.1\\webassembly.1.2.1.nupkg.sha512"
   ],
   "logs": []
 }

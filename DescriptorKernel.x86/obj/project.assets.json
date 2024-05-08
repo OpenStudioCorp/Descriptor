@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Mosa.DeviceSystem/2.6.0.1452": {
+      "Mosa.DeviceSystem/2.6.0.1457": {
         "type": "package",
         "dependencies": {
-          "Mosa.Platform": "2.6.0.1452"
+          "Mosa.Platform": "2.6.0.1457"
         },
         "compile": {
           "lib/net8.0/Mosa.DeviceDriver.dll": {},
@@ -18,7 +18,7 @@
           "lib/net8.0/Mosa.FileSystem.dll": {}
         }
       },
-      "Mosa.Platform/2.6.0.1452": {
+      "Mosa.Platform/2.6.0.1457": {
         "type": "package",
         "compile": {
           "lib/net8.0/Mosa.Kernel.BareMetal.dll": {},
@@ -33,10 +33,10 @@
           "lib/net8.0/System.Runtime.dll": {}
         }
       },
-      "Mosa.Platform.x86/2.6.0.1452": {
+      "Mosa.Platform.x86/2.6.0.1457": {
         "type": "package",
         "dependencies": {
-          "Mosa.Platform": "2.6.0.1452"
+          "Mosa.Platform": "2.6.0.1457"
         },
         "compile": {
           "lib/net8.0/Mosa.Kernel.BareMetal.Intel.dll": {},
@@ -51,7 +51,7 @@
           "lib/net8.0/Mosa.Runtime.x86.dll": {}
         }
       },
-      "Mosa.Tools.Package.Qemu/2.6.0.1452": {
+      "Mosa.Tools.Package.Qemu/2.6.0.1457": {
         "type": "package",
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -93,10 +93,10 @@
     }
   },
   "libraries": {
-    "Mosa.DeviceSystem/2.6.0.1452": {
-      "sha512": "m4eu4IaZdNoXXd2KS4Fhh7dnRkMIWUrplMG/LUXs/e71as9+ddW+e+dubEBpOxu3AD3vFmUIFc92q0vFljI49Q==",
+    "Mosa.DeviceSystem/2.6.0.1457": {
+      "sha512": "Vd5ZTr93qjV6BBBzM43ZIBzUfogyKBj7NXzQ+3aW9KmSPijrzSMcct39UIkpdZAxt4ip8NH7ACpk/V6gj8Mm+A==",
       "type": "package",
-      "path": "mosa.devicesystem/2.6.0.1452",
+      "path": "mosa.devicesystem/2.6.0.1457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -104,14 +104,14 @@
         "lib/net8.0/Mosa.DeviceDriver.dll",
         "lib/net8.0/Mosa.DeviceSystem.dll",
         "lib/net8.0/Mosa.FileSystem.dll",
-        "mosa.devicesystem.2.6.0.1452.nupkg.sha512",
+        "mosa.devicesystem.2.6.0.1457.nupkg.sha512",
         "mosa.devicesystem.nuspec"
       ]
     },
-    "Mosa.Platform/2.6.0.1452": {
-      "sha512": "tnYIvaRSJMiHUA/n/jxYrh4F/RDrd6i81Raix2ZMavyyNApYBPe4R/ZWsWUNMD0/ulKCME+c/KS4DQCEm89XhA==",
+    "Mosa.Platform/2.6.0.1457": {
+      "sha512": "CZwSrpRlKfnQMPixY+pndaKOs/VTprv3tV6J7+pcXjWnaFJBvf8fIqRHiXwcDUVHmauebXi8WzDJHGau3SBM4w==",
       "type": "package",
-      "path": "mosa.platform/2.6.0.1452",
+      "path": "mosa.platform/2.6.0.1457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -120,14 +120,14 @@
         "lib/net8.0/Mosa.Plug.Korlib.dll",
         "lib/net8.0/Mosa.Runtime.dll",
         "lib/net8.0/System.Runtime.dll",
-        "mosa.platform.2.6.0.1452.nupkg.sha512",
+        "mosa.platform.2.6.0.1457.nupkg.sha512",
         "mosa.platform.nuspec"
       ]
     },
-    "Mosa.Platform.x86/2.6.0.1452": {
-      "sha512": "mE4lYxWUoajRMFRFO9KNtAnEVOWpwRsvTub5/Am6cE6PQZRO2YfZ6ENNh/d/4kkUnr2fn2IYilIYfnj8GS2Wbg==",
+    "Mosa.Platform.x86/2.6.0.1457": {
+      "sha512": "xMj/ll2cukHvEmr4Xx5Y/RZVrriN45lG4iq5H1YO5z/efYpeGSAFSDmD7hF22KOPRUsyd5iMvX1obtb0U/o/8Q==",
       "type": "package",
-      "path": "mosa.platform.x86/2.6.0.1452",
+      "path": "mosa.platform.x86/2.6.0.1457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -136,14 +136,14 @@
         "lib/net8.0/Mosa.Kernel.BareMetal.x86.dll",
         "lib/net8.0/Mosa.Plug.Korlib.x86.dll",
         "lib/net8.0/Mosa.Runtime.x86.dll",
-        "mosa.platform.x86.2.6.0.1452.nupkg.sha512",
+        "mosa.platform.x86.2.6.0.1457.nupkg.sha512",
         "mosa.platform.x86.nuspec"
       ]
     },
-    "Mosa.Tools.Package.Qemu/2.6.0.1452": {
-      "sha512": "brW+THuA68wxmW5qF8NF2i7oDm655ssfeXPv98C/vnDZ4zRkSyERzdge3LW/xLBq3N1a6yvrBnLRpFVcQ9YpJg==",
+    "Mosa.Tools.Package.Qemu/2.6.0.1457": {
+      "sha512": "penrjmjFo/jeTRo0hygIW75eAH2+xYQ6v0zUyWLzTXANQJx7q7CTIZAZ+lcAR10TmHDWJtJg9qODtW84/KeyFg==",
       "type": "package",
-      "path": "mosa.tools.package.qemu/2.6.0.1452",
+      "path": "mosa.tools.package.qemu/2.6.0.1457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -415,7 +415,7 @@
         "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll",
         "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libSkiaSharp.dll",
         "images/Mosa Icon.png",
-        "mosa.tools.package.qemu.2.6.0.1452.nupkg.sha512",
+        "mosa.tools.package.qemu.2.6.0.1457.nupkg.sha512",
         "mosa.tools.package.qemu.nuspec"
       ]
     },
@@ -448,19 +448,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\": {}
+    "C:\\Users\\GAMER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
+      "projectUniqueName": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
       "projectName": "DescriptorKernel.x86",
-      "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
-      "packagesPath": "C:\\Users\\WattleFoxxo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel.x86\\obj\\",
+      "projectPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
+      "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel.x86\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\WattleFoxxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -468,15 +473,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\WattleFoxxo\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\GAMER\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {
-              "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj"
+            "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {
+              "projectPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj"
             }
           }
         }
