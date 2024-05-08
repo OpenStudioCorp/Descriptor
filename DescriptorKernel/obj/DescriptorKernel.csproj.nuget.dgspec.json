@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\DescriptorKernel.csproj": {}
+    "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\DescriptorKernel.csproj": {
+    "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\DescriptorKernel.csproj",
+        "projectUniqueName": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
         "projectName": "DescriptorKernel",
-        "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\DescriptorKernel.csproj",
+        "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
         "packagesPath": "C:\\Users\\WattleFoxxo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\obj\\",
+        "outputPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WattleFoxxo\\AppData\\Roaming\\NuGet\\NuGet.Config",

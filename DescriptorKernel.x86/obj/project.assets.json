@@ -423,11 +423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
+      "projectUniqueName": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
       "projectName": "DescriptorKernel.x86",
-      "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
+      "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel.x86\\DescriptorKernel.x86.csproj",
       "packagesPath": "C:\\Users\\WattleFoxxo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel.x86\\obj\\",
+      "outputPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel.x86\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WattleFoxxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -445,8 +445,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\DescriptorKernel.csproj": {
-              "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\DescriptorKernel.csproj"
+            "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {
+              "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj"
             }
           }
         }

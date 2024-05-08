@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "24fjA/n5P1Qt4hfq4dS9pSqK2bMNvJK5oTtiC8RfkBLxd+2soFzOvSO0T6jfV2YJ8jCfAsj7t19Nqo2q00kMeQ==",
+  "dgSpecHash": "8ChqpUPR+rZjSnvAe1a/mG+BRcYSYK02IbVYMMHTuwDEG4bMGXmJQehfEmKFc6cWMInA9PoKd0Fqu8PLs3rzqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\DescriptorKernel\\DescriptorKernel\\DescriptorKernel.csproj",
+  "projectFilePath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.devicesystem\\2.6.0.1452\\mosa.devicesystem.2.6.0.1452.nupkg.sha512",
     "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.platform\\2.6.0.1452\\mosa.platform.2.6.0.1452.nupkg.sha512",
