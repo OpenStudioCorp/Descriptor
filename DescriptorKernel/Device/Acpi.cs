@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Text;
+using Mosa.DeviceSystem.HardwareAbstraction;
 
 
 namespace DescriptorKernel.Device.ACPI
@@ -10,12 +11,7 @@ namespace DescriptorKernel.Device.ACPI
     public class Acpi
     {
         public static void AcpiShutdown(){
-            Mosa.DeviceDriver.ACPI.ACPIDriver aCPIDriver = new Mosa.DeviceDriver.ACPI.ACPIDriver();
-            aCPIDriver.Stop();
-       
-
+            HAL.Yield();
         }
     }
 }
-
-

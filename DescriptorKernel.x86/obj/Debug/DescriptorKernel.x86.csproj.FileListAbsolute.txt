@@ -875,7 +875,6 @@ C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\Mosa.Kernel.Bare
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\Mosa.Kernel.BareMetal.x86.dll
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\Mosa.Plug.Korlib.x86.dll
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\Mosa.Runtime.x86.dll
-C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\WebAssembly.dll
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\DescriptorKernel.dll
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\DescriptorKernel.pdb
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\obj\Debug\DescriptorKernel.x86.csproj.AssemblyReference.cache
@@ -887,3 +886,4 @@ C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\obj\Debug\Descriptor
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\obj\Debug\Descript.86D62B92.Up2Date
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\obj\Debug\DescriptorKernel.x86.genruntimeconfig.cache
 C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\obj\Debug\ref\DescriptorKernel.x86.dll
+C:\Users\GAMER\source\repos\Descriptor\DescriptorKernel.x86\bin\System.Linq.dll

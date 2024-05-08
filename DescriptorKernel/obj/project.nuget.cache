@@ -1,13 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "Z073Sh/87/QwClyyuoe1iSDdSHkF2zmS+xH/nWTblmUB8pS4DwPyBkcGCPttHCz+aTXNgNHcr1AbKFOwkzrT7Q==",
+  "dgSpecHash": "XaPgZ1/Ih3aVTbOmVu3AtUd2HHymYusNC7FGPSUAzYzJLZykSXCUY5xsXs95BVlqkGcYwunaRx/LQoroEISiaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\GAMER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\GAMER\\.nuget\\packages\\mosa.devicesystem\\2.6.0.1457\\mosa.devicesystem.2.6.0.1457.nupkg.sha512",
     "C:\\Users\\GAMER\\.nuget\\packages\\mosa.platform\\2.6.0.1457\\mosa.platform.2.6.0.1457.nupkg.sha512",
     "C:\\Users\\GAMER\\.nuget\\packages\\mosa.tools.package.qemu\\2.6.0.1457\\mosa.tools.package.qemu.2.6.0.1457.nupkg.sha512",
-    "C:\\Users\\GAMER\\.nuget\\packages\\webassembly\\1.2.1\\webassembly.1.2.1.nupkg.sha512"
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\GAMER\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

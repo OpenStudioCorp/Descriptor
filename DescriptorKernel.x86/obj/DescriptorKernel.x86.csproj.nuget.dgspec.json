@@ -55,9 +55,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Mosa.Platform.x86": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Emit": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -122,6 +134,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Mosa.DeviceSystem": {
               "target": "Package",
               "version": "[*, )"
@@ -134,9 +150,17 @@
               "target": "Package",
               "version": "[*, )"
             },
-            "WebAssembly": {
+            "System.Linq": {
               "target": "Package",
-              "version": "[1.2.1, )"
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Emit": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [

@@ -62,6 +62,7 @@ namespace Konsole
                 case "help":
                     help(); // help command
                     break;
+                    
                 case "wasm":
                     if (args.Length < 2)
                     {
@@ -69,12 +70,12 @@ namespace Konsole
                         break;
                     }
                     else{
-                    string filename = args[1];
+                    //string filename = args[1];
 
                     //Wasm.run(filename);
-
+                    
                     PrintN("Wasm not implemented yet!", ConsoleColor.Red);
-                    PrintN(filename, ConsoleColor.Green);
+                    // PrintN(filename, ConsoleColor.Green);
                     }
                     break;
 

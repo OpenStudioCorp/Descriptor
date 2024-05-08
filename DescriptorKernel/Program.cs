@@ -5,8 +5,7 @@ using System.IO;
 using Mosa.DeviceSystem.HardwareAbstraction;
 using Mosa.DeviceSystem.Services;
 using Mosa.Kernel.BareMetal;
-using WebAssembly.Instructions;
-using WebAssembly.Runtime;
+
 using Mosa.DeviceSystem.Disks;
 using Mosa.FileSystem.FAT;
 

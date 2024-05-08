@@ -19,7 +19,7 @@ public static class Disks {
 		foreach (var device in diskControllers) {
 			Logging.Info("Device.Disks", $"Found disk controller {device.Name} with id {device.ComponentID}.");
 		}
-
+	
 		Logging.Info("Device.Disks", "Looking for disks.");
 		var disks = Program.DeviceService.GetDevices<IDiskDevice>();
 

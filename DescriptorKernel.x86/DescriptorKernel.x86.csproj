@@ -16,7 +16,10 @@
 
 	<ItemGroup>
 		<ProjectReference Include="../DescriptorKernel/DescriptorKernel.csproj" />
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="Mosa.Platform.x86" Version="*" />
+		<PackageReference Include="System.Linq" Version="4.3.0" />
+		<PackageReference Include="System.Reflection.Emit" Version="4.7.0" />
 	</ItemGroup>
 
 </Project>
