@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"DescriptorKernel.x86": {
+			"commandName": "Executable",
+			"executablePath": "dotnet",
+			"commandLineArgs": "Tools/Mosa.Tool.Launcher.dll DescriptorKernel.x86.dll",
+			"workingDirectory": "bin"
+		}
+	}
+}
