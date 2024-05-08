@@ -589,3 +589,4 @@ C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\DescriptorKernel.x86\obj\Debug\
 C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\DescriptorKernel.x86\obj\Debug\DescriptorKernel.x86.pdb
 C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\DescriptorKernel.x86\obj\Debug\DescriptorKernel.x86.genruntimeconfig.cache
 C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\DescriptorKernel.x86\obj\Debug\ref\DescriptorKernel.x86.dll
+C:\Users\WattleFoxxo\Documents\GitHub\Descriptor\DescriptorKernel.x86\bin\WebAssembly.dll

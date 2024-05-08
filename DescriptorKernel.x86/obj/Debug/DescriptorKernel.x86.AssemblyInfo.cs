@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DescriptorKernel.x86")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a3ceb754833e9ff470752385921374a6e54f29d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+840f2dd6f24147da10153efacda8f4e4312f23ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("DescriptorKernel.x86")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DescriptorKernel.x86")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

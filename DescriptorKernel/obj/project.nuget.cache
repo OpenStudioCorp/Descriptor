@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8ChqpUPR+rZjSnvAe1a/mG+BRcYSYK02IbVYMMHTuwDEG4bMGXmJQehfEmKFc6cWMInA9PoKd0Fqu8PLs3rzqA==",
+  "dgSpecHash": "AD9lSQg3nXeEmjGr+G9wzzNtLm3KRvUjO+q9+y+jrgBh9emsrGt62NAo0JXHj+YiXnIwQILjT/uw7TTy7RhNlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.devicesystem\\2.6.0.1452\\mosa.devicesystem.2.6.0.1452.nupkg.sha512",
     "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.platform\\2.6.0.1452\\mosa.platform.2.6.0.1452.nupkg.sha512",
-    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.tools.package.qemu\\2.6.0.1452\\mosa.tools.package.qemu.2.6.0.1452.nupkg.sha512"
+    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\mosa.tools.package.qemu\\2.6.0.1452\\mosa.tools.package.qemu.2.6.0.1452.nupkg.sha512",
+    "C:\\Users\\WattleFoxxo\\.nuget\\packages\\webassembly\\1.2.1\\webassembly.1.2.1.nupkg.sha512"
   ],
   "logs": []
 }

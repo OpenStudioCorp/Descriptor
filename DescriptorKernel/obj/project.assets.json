@@ -1639,6 +1639,19 @@
             "outputPath": "Tools/runtimes/win-x86/native/libSkiaSharp.dll"
           }
         }
+      },
+      "WebAssembly/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/WebAssembly.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/WebAssembly.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -1952,13 +1965,30 @@
         "mosa.tools.package.qemu.2.6.0.1452.nupkg.sha512",
         "mosa.tools.package.qemu.nuspec"
       ]
+    },
+    "WebAssembly/1.2.1": {
+      "sha512": "mapRNO/tXg9SMXVaJUy+B9raXv5X+VQ8wbzIG1cdH64xsrxNpUDO59Dcbupjdk3Gfdisnx9rxIghx05HcX1Jjg==",
+      "type": "package",
+      "path": "webassembly/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/netcoreapp3.1/WebAssembly.dll",
+        "lib/netcoreapp3.1/WebAssembly.xml",
+        "lib/netstandard2.0/WebAssembly.dll",
+        "lib/netstandard2.0/WebAssembly.xml",
+        "webassembly.1.2.1.nupkg.sha512",
+        "webassembly.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Mosa.DeviceSystem >= *",
       "Mosa.Platform >= *",
-      "Mosa.Tools.Package.Qemu >= *"
+      "Mosa.Tools.Package.Qemu >= *",
+      "WebAssembly >= 1.2.1"
     ]
   },
   "packageFolders": {
@@ -2017,6 +2047,10 @@
           "Mosa.Tools.Package.Qemu": {
             "target": "Package",
             "version": "[*, )"
+          },
+          "WebAssembly": {
+            "target": "Package",
+            "version": "[1.2.1, )"
           }
         },
         "imports": [

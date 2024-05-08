@@ -57,6 +57,10 @@
             "Mosa.Tools.Package.Qemu": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "WebAssembly": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             }
           },
           "imports": [

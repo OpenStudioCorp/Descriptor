@@ -11,7 +11,8 @@
         "dependencies": {
           "Mosa.DeviceSystem": "2.6.0.1452",
           "Mosa.Platform": "2.6.0.1452",
-          "Mosa.Tools.Package.Qemu": "2.6.0.1452"
+          "Mosa.Tools.Package.Qemu": "2.6.0.1452",
+          "WebAssembly": "1.2.1"
         },
         "runtime": {
           "DescriptorKernel.dll": {}
@@ -56,7 +57,15 @@
           }
         }
       },
-      "Mosa.Tools.Package.Qemu/2.6.0.1452": {}
+      "Mosa.Tools.Package.Qemu/2.6.0.1452": {},
+      "WebAssembly/1.2.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/WebAssembly.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -85,6 +94,13 @@
       "sha512": "sha512-brW+THuA68wxmW5qF8NF2i7oDm655ssfeXPv98C/vnDZ4zRkSyERzdge3LW/xLBq3N1a6yvrBnLRpFVcQ9YpJg==",
       "path": "mosa.tools.package.qemu/2.6.0.1452",
       "hashPath": "mosa.tools.package.qemu.2.6.0.1452.nupkg.sha512"
+    },
+    "WebAssembly/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mapRNO/tXg9SMXVaJUy+B9raXv5X+VQ8wbzIG1cdH64xsrxNpUDO59Dcbupjdk3Gfdisnx9rxIghx05HcX1Jjg==",
+      "path": "webassembly/1.2.1",
+      "hashPath": "webassembly.1.2.1.nupkg.sha512"
     }
   }
 }

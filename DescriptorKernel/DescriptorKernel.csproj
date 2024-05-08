@@ -17,6 +17,7 @@
 		<PackageReference Include="Mosa.Platform" Version="*" />
 		<PackageReference Include="Mosa.DeviceSystem" Version="*" />
 		<PackageReference Include="Mosa.Tools.Package.Qemu" Version="*" />
+		<PackageReference Include="WebAssembly" Version="1.2.1" />
 	</ItemGroup>
 
 </Project>
