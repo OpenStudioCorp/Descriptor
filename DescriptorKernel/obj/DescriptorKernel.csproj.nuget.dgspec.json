@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {}
+    "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {
+    "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
+        "projectUniqueName": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
         "projectName": "DescriptorKernel",
-        "projectPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
-        "packagesPath": "C:\\Users\\WattleFoxxo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WattleFoxxo\\Documents\\GitHub\\Descriptor\\DescriptorKernel\\obj\\",
+        "projectPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\DescriptorKernel.csproj",
+        "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GAMER\\source\\repos\\Descriptor\\DescriptorKernel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\WattleFoxxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\WattleFoxxo\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\GAMER\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

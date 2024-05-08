@@ -37,8 +37,8 @@ public static class Program {
 
 		Disks.ShowDisks();
 		FileSystem.ShowPartitions();
-		Konsole.Konsole.Run();
-        using var stream = File.OpenRead("HelloWorld.wasm");
+		
+       
 
 		Logging.Info("Kernel", "Loading root file system.");
 		var partitions = DeviceService.GetDevices<IPartitionDevice>();
@@ -67,7 +67,7 @@ public static class Program {
 		Logging.Info("Kernel", "Finished!");
 		Logging.Info("Kernel", $"New filesystem name: \"{RootFileSystem.VolumeLabel}\".");
 		Logging.Info("Kernel", $"New filesystem type: FAT{(int)RootFileSystem.FATType}.");
-
+		Konsole.Konsole.run();
 		// Mosa.Kernel.BareMetal.elf
 
 		// Logging.Debug("Kernel", "This is a debug log.");

@@ -9,18 +9,18 @@
     ".NETCoreApp,Version=v8.0/": {
       "DescriptorKernel/1.0.0": {
         "dependencies": {
-          "Mosa.DeviceSystem": "2.6.0.1452",
-          "Mosa.Platform": "2.6.0.1452",
-          "Mosa.Tools.Package.Qemu": "2.6.0.1452",
+          "Mosa.DeviceSystem": "2.6.0.1457",
+          "Mosa.Platform": "2.6.0.1457",
+          "Mosa.Tools.Package.Qemu": "2.6.0.1457",
           "WebAssembly": "1.2.1"
         },
         "runtime": {
           "DescriptorKernel.dll": {}
         }
       },
-      "Mosa.DeviceSystem/2.6.0.1452": {
+      "Mosa.DeviceSystem/2.6.0.1457": {
         "dependencies": {
-          "Mosa.Platform": "2.6.0.1452"
+          "Mosa.Platform": "2.6.0.1457"
         },
         "runtime": {
           "lib/net8.0/Mosa.DeviceDriver.dll": {
@@ -37,7 +37,7 @@
           }
         }
       },
-      "Mosa.Platform/2.6.0.1452": {
+      "Mosa.Platform/2.6.0.1457": {
         "runtime": {
           "lib/net8.0/Mosa.Kernel.BareMetal.dll": {
             "assemblyVersion": "2.6.0.0",
@@ -57,7 +57,7 @@
           }
         }
       },
-      "Mosa.Tools.Package.Qemu/2.6.0.1452": {},
+      "Mosa.Tools.Package.Qemu/2.6.0.1457": {},
       "WebAssembly/1.2.1": {
         "runtime": {
           "lib/netcoreapp3.1/WebAssembly.dll": {
@@ -74,26 +74,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Mosa.DeviceSystem/2.6.0.1452": {
+    "Mosa.DeviceSystem/2.6.0.1457": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-m4eu4IaZdNoXXd2KS4Fhh7dnRkMIWUrplMG/LUXs/e71as9+ddW+e+dubEBpOxu3AD3vFmUIFc92q0vFljI49Q==",
-      "path": "mosa.devicesystem/2.6.0.1452",
-      "hashPath": "mosa.devicesystem.2.6.0.1452.nupkg.sha512"
+      "sha512": "sha512-Vd5ZTr93qjV6BBBzM43ZIBzUfogyKBj7NXzQ+3aW9KmSPijrzSMcct39UIkpdZAxt4ip8NH7ACpk/V6gj8Mm+A==",
+      "path": "mosa.devicesystem/2.6.0.1457",
+      "hashPath": "mosa.devicesystem.2.6.0.1457.nupkg.sha512"
     },
-    "Mosa.Platform/2.6.0.1452": {
+    "Mosa.Platform/2.6.0.1457": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tnYIvaRSJMiHUA/n/jxYrh4F/RDrd6i81Raix2ZMavyyNApYBPe4R/ZWsWUNMD0/ulKCME+c/KS4DQCEm89XhA==",
-      "path": "mosa.platform/2.6.0.1452",
-      "hashPath": "mosa.platform.2.6.0.1452.nupkg.sha512"
+      "sha512": "sha512-CZwSrpRlKfnQMPixY+pndaKOs/VTprv3tV6J7+pcXjWnaFJBvf8fIqRHiXwcDUVHmauebXi8WzDJHGau3SBM4w==",
+      "path": "mosa.platform/2.6.0.1457",
+      "hashPath": "mosa.platform.2.6.0.1457.nupkg.sha512"
     },
-    "Mosa.Tools.Package.Qemu/2.6.0.1452": {
+    "Mosa.Tools.Package.Qemu/2.6.0.1457": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-brW+THuA68wxmW5qF8NF2i7oDm655ssfeXPv98C/vnDZ4zRkSyERzdge3LW/xLBq3N1a6yvrBnLRpFVcQ9YpJg==",
-      "path": "mosa.tools.package.qemu/2.6.0.1452",
-      "hashPath": "mosa.tools.package.qemu.2.6.0.1452.nupkg.sha512"
+      "sha512": "sha512-penrjmjFo/jeTRo0hygIW75eAH2+xYQ6v0zUyWLzTXANQJx7q7CTIZAZ+lcAR10TmHDWJtJg9qODtW84/KeyFg==",
+      "path": "mosa.tools.package.qemu/2.6.0.1457",
+      "hashPath": "mosa.tools.package.qemu.2.6.0.1457.nupkg.sha512"
     },
     "WebAssembly/1.2.1": {
       "type": "package",
