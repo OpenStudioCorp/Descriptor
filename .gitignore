@@ -1,0 +1,5 @@
+DescriptorKernel/bin
+DescriptorKernel.x86/bin
+obj/
+DescriptorKernel/obj
+DescriptorKernel.x86/obj
